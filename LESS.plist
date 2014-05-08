@@ -155,6 +155,7 @@
 		<string>auto</string>
 		<string>absolute</string>
 		<string>block</string>
+		<string>bold</string>
 		<string>border-box</string>
 		<string>coarse</string>
 		<string>hidden</string>
@@ -162,7 +163,9 @@
 		<string>inline</string>
 		<string>inline-block</string>
 		<string>lowercase</string>
+		<string>middle</string>
 		<string>none</string>
+		<string>normal</string>
 		<string>nowrap</string>
 		<string>pointer</string>
 		<string>relative</string>
@@ -173,7 +176,13 @@
 		<string>!important</string>
 		<string>important</string>
 
-		<string>:extend</string>
+		<string>extend</string>
+		<string>(reference)</string>
+		<string>(inline)</string>
+		<string>(less)</string>
+		<string>(css)</string>
+		<string>(once)</string>
+		<string>(multiple)</string>
 	</array>
 	<key>BBLMPredefinedNameList</key>
 	<array>
@@ -976,21 +985,8 @@
 		<string>-xv-voice-volume</string>
 		<string>-o-text-overflow</string>
 
-		<string>.border-radius</string>
-		<string>.bordered</string>
-		<string>.box-shadow</string>
-		<string>.bw-gradient</string>
-		<string>.columns</string>
-		<string>.drop-shadow</string>
-		<string>.gradient</string>
-		<string>.inner-shadow</string>
-		<string>.opacity</string>
-		<string>.rotation</string>
-		<string>.rounded</string>
-		<string>.scale</string>
-		<string>.transition-duration</string>
-		<string>.transition</string>
-		<string>.translate</string>
+		<string>@arguments</string>
+		<string>@rest</string>
 		<string>color</string>
 		<string>convert</string>
 		<string>data-uri</string>
@@ -1083,16 +1079,6 @@
 	<false/>
 	<key>Language Features</key>
 	<dict>
-		<key>Close Block Comments</key>
-		<string>*/</string>
-		<key>Close Parameter Lists</key>
-		<string>)</string>
-		<key>Close Statement Blocks</key>
-		<string>}</string>
-		<key>Close Strings 1</key>
-		<string>&quot;</string>
-		<key>Close Strings 2</key>
-		<string>&apos;</string>
 		<key>End-of-line Ends Strings 1</key>
 		<true/>
 		<key>End-of-line Ends Strings 2</key>
@@ -1105,15 +1091,25 @@
 		<string>@.#!$%*-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz</string>
 		<key>Open Block Comments</key>
 		<string>/*</string>
+		<key>Close Block Comments</key>
+		<string>*/</string>
 		<key>Open Line Comments</key>
 		<string>//</string>
 		<key>Open Parameter Lists</key>
 		<string>(</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
 		<key>Open Statement Blocks</key>
 		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
 		<key>Open Strings 1</key>
 		<string>&quot;</string>
+		<key>Close Strings 1</key>
+		<string>&quot;</string>
 		<key>Open Strings 2</key>
+		<string>&apos;</string>		
+		<key>Close Strings 2</key>
 		<string>&apos;</string>
 		<key>Prefix for Procedures</key>
 		<string></string>
